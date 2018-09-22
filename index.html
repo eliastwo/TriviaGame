@@ -1,0 +1,49 @@
+<html lang="en>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+		<title>Quiz Game</title>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="Assets/CSS/script.css">
+	
+	</head>
+<body class="bg-light">
+
+		<h1>Quiz Game</h1>
+		
+		<div class="text-center">
+			<button class="btn btn-info button m-2" id="start">Start Game</button>
+		</div>
+
+		<div id="buttons">
+			<p id="question"></p>
+			<button class="btn btn-info button m-2" name="choice 1" value="0" id="choice1">Choice 1</button>
+			<button class="btn btn-info button m-2" name="choice 2" value="1" id="choice2">Choice 2</button>
+			<button class="btn btn-info button m-2" name="choice 3" value="2" id="choice3">Choice 3</button>
+			<button class="btn btn-info button m-2" name="choice 4" value="3" id="choice4">Choice 4</button>
+		</div>
+		
+		<div>
+			<progress value="0" max="15" id="progressBar" class="progress-bar progress-bar-animated"></progress>
+		</div>
+		
+		<div>
+			<p id="status"></p>
+		</div>
+		
+		<div>
+			<p id="score">Hi</p>
+		</div>
+		
+		<div>
+			<p id="correct">correct guesses</p>
+			<p id="incorrect">incorrect guesses</p>
+			
+		</div>
+
+		<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+		<script src="Assets/Javascript/myjs.js"></script>
+
+	</body>
+
+</html>
